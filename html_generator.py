@@ -598,7 +598,7 @@ def build_html(
         <p class="sort-toggle">{sort_toggle_html}</p>
         {observations_html}
     </div>
-<img class="charts" src="monthly_chart.png">
+<!--<img class="charts" src="monthly_chart.png">-->
     <footer>
         eBird. 2021. eBird: An online database of bird distribution and abundance [web application]. eBird, Cornell Lab of Ornnithology, Ithaca, New York. Available: http://www.ebird.org. (Accessed: {accessed_date}).<br><br>
         Generated automatically by GitHub Actions<br>
