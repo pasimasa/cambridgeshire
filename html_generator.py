@@ -347,7 +347,7 @@ def build_html(
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lothian Bird Report</title>
+    <title>Cambridgeshire Bird Report</title>
     <style>
         body {{
             -webkit-text-size-adjust: 100%;
@@ -584,8 +584,8 @@ def build_html(
 </head>
 <body>
     <header>
-        <h1>Lothian recent bird sightings</h1>
-        <p>Edinburgh, East Lothian, Midlothian, West Lothian</p>
+        <h1>Cambridgeshire recent bird sightings</h1>
+        <p></p>
     </header>
     <div class="card">
         <h2>Report Summary</h2>
