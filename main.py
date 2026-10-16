@@ -33,7 +33,7 @@ TIMEZONE = "Europe/London"
 EBIRD_API_KEY_NAME = "EBIRD_API_KEY"
 EBIRD_API_KEY = os.environ.get(EBIRD_API_KEY_NAME)
 HEADERS = {'X-eBirdApiToken': EBIRD_API_KEY}
-REGIONS = ['GB-SCT-ELN', 'GB-SCT-EDH', 'GB-SCT-MLN', 'GB-SCT-WLN']
+REGIONS = ['GB-ENG-CAM']
 DAYS_TO_SHOW = 5
 CONFIG_YAML_FILE_NAME = "species_config.yml"
 TAXON_FILE_NAME = "ebird_taxon.csv"
@@ -565,13 +565,13 @@ def main() -> None:
     obs = update_species_config(obs, species_config)
 
     # Persist daily obs counts for long-term graphing
-    update_daily_counts(obs, DAILY_COUNT_FILE)
+    #update_daily_counts(obs, DAILY_COUNT_FILE)
 
     # Update monthly chart
-    try:
-        generate_monthly_chart(MONTHLY_COUNT_FILE, MONTHLY_CHART)
-    except Exception as e:
-        print(f"  Warning: Failed to generate monthly chart: {e}")
+    #try:
+    #    generate_monthly_chart(MONTHLY_COUNT_FILE, MONTHLY_CHART)
+    #except Exception as e:
+    #    print(f"  Warning: Failed to generate monthly chart: {e}")
 
     duration = time.time() - start_time
     print(f"  Checklists fetched in: {duration:.2f} seconds")
