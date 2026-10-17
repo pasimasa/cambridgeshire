@@ -465,6 +465,9 @@
   local_name: Bittern
   rarity: high
 
+"Western Cattle-Egret":
+  local_name: Cattle Egret
+  
 "Little Egret":
   min_count: 1
 
@@ -610,6 +613,9 @@
 "Horned Lark":
   local_name: Shore Lark
   rarity: high
+
+"Bearded Reedling":
+  local_name: Bearded Tit
 
 "Sedge Warbler":
   min_count: {jan: 1, feb: 1, mar: 1, apr: 1, may: 5, jun: 3, jul: 1, aug: 1, sep: 1, oct: 1, nov: 1, dec: 1}
