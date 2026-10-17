@@ -298,7 +298,7 @@ def build_html(
     if group_by == "date":
         observations_html = _build_observations_by_date(obs_df, has_comments)
         if all_page:
-            sightings_subtitle = "All eBird sightings from the past 5 days. Includes unverified records."
+            sightings_subtitle = "All eBird sightings from the past 7 days. Includes unverified records."
             sort_toggle_html = (
                 'Sort by '
                 '<span class="sort-active">Date</span>'
@@ -306,7 +306,7 @@ def build_html(
                 '<a href="birds_all.html">Species</a>'
             )
         else:
-            sightings_subtitle = "Notable eBird sightings from the past 5 days. Includes unverified records."
+            sightings_subtitle = "Notable eBird sightings from the past 7 days. Includes unverified records."
             sort_toggle_html = (
                 'Sort by '
                 '<span class="sort-active">Date</span>'
@@ -316,7 +316,7 @@ def build_html(
     else:
         observations_html = _build_observations_by_species(obs_df, has_comments)
         if all_page:
-            sightings_subtitle = "All eBird sightings from the past 5 days. Includes unverified records."
+            sightings_subtitle = "All eBird sightings from the past 7 days. Includes unverified records."
             sort_toggle_html = (
                 'Sort by '
                 '<span class="sort-active">Species</span>'
@@ -324,7 +324,7 @@ def build_html(
                 '<a href="birds_all_date.html">Date</a>'
             )
         else:
-            sightings_subtitle = "Notable eBird sightings from the past 5 days. Includes unverified records."
+            sightings_subtitle = "Notable eBird sightings from the past 7 days. Includes unverified records."
             sort_toggle_html = (
                 'Sort by '
                 '<span class="sort-active">Species</span>'
