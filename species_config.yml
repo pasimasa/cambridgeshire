@@ -863,9 +863,5 @@ settings:
     users: # exclude ALL records from these users
       - "Bob Bob"           
     user_species:
-      "Rosss Burns":
+      "some user":
         - "Hawfinch"         # exclude only these species from this user
-      "Scott Reed":
-       - "Spotted Flycatcher"
-      "Kai Ridgway":
-       - "Red-footed Falcon"
