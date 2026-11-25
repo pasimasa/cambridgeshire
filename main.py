@@ -183,7 +183,7 @@ def generate_monthly_chart(monthly_file: str, chart_file: str) -> None:
     max_value = max(comparison_vals) if comparison_vals else 10000
 
     year_range = f"{years_to_plot[0]}–{years_to_plot[-1]}"
-    ax.set_title(f'Lothian Monthly eBird Records ({year_range})', fontsize=14, pad=10)
+    ax.set_title(f'Cambridgeshire Monthly eBird Records ({year_range})', fontsize=14, pad=10)
     ax.set_xticks(x)
     ax.set_xticklabels(months, fontsize=10)
     ax.tick_params(axis='y', labelsize=10)
